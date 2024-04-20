@@ -1,0 +1,71 @@
+.box{
+    width: 700px;
+    height: 700px;
+    
+    border: 3px solid gray;
+    margin: 0 auto;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+.cube{
+    transition: transform 0.5s ease, backround-color 0.5s ease;
+    
+width: 100px;
+height: 100px;
+}
+.cube:nth-child(1){
+    background-color: blanchedalmond;
+}
+
+.cube:nth-child(1):hover{
+    background-color: blue;
+    transform: rotate(360deg);
+    border: 3px solid rgb(128, 92, 0);
+}
+.cube:nth-child(2){
+background-color: chartreuse;
+}
+
+.cube:nth-child(2):hover{
+    background-color: red;
+    transform: translate( 20px,25px);
+border: 3px solid rgb(15, 14, 14);
+
+}
+.cube:nth-child(3){
+ background-color: yellow;
+}
+.cube:nth-child(3):hover{
+    background-color: aqua;
+   transform: translate(-20px, -25px);
+border: 3px solid rgb(77, 119, 28);
+
+}
+.cube:nth-child(4){
+    background-color: darkblue;
+}
+.cube:nth-child(4):hover{
+    background-color: rgb(0, 255, 26);
+    transform: scale(1.6, 0.5);
+border: 3px solid rgb(179, 15, 157);
+
+}
+.cube:nth-child(5){
+    background-color: lightseagreen;
+}
+.cube:nth-child(5):hover{
+    background-color: lightgoldenrodyellow;
+    transform: skew(-20deg);
+border: 3px solid rgb(207, 195, 165);
+
+}
+.cube:nth-child(6){
+    background-color: darkorchid;
+}
+.cube:nth-child(6):hover{
+background-color: pink;
+transform: skew(25deg, 30deg);
+border: 3px solid rgb(128, 0, 60);
+
+}
